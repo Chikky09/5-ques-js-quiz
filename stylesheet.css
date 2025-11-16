@@ -1,0 +1,91 @@
+/* Reset and base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4c3c3;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Quiz container */
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #bdcba2;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* question-number*/
+.question-number {
+  font-size: 1em;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Question styling */
+#question {
+  font-size: 1.5em;
+  color: rgba(25, 12, 3, 0.858);
+  margin-bottom: 20px;
+}
+
+/* Options styling */
+.options button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 1em;
+  border: 2px solid rgb(14, 107, 150);
+  border-radius: 5px;
+  background-color: #f7f4f6;
+  color: #02000b;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.options button:hover {
+  background-color: #d2ecb3;
+  color: #0f0e0e;
+}
+
+/* Highlight selected option */
+.options button.selected {
+  background-color: #e3e3f0;
+  color: rgb(17, 16, 16);
+  font-weight: bold;
+}
+
+/* Navigation buttons */
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  color: rgb(241, 244, 245);
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+#prev-btn {
+  background-color: #165007; /* blue*/
+}
+
+#submit-btn {
+  background-color: #1127f08f; /* Green */
+}
+
+#next-btn {
+  background-color: #165007; /* Blue */
+}
+
+.buttons button:hover {
+  opacity: 0.9;
+}
